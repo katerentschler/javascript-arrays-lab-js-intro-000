@@ -37,6 +37,7 @@ function appendKitten(name){
   function kittah (){}
   kittens.splice(3, 0, name);
 }
+kittah();
   return kittens;
 }
 

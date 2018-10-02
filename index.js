@@ -36,13 +36,17 @@ function appendKitten(name){
   return kittens;
 }
 
-/*
+function prependKitten(name){
+  kittens=[name, ...kittens];
+  return kittens;
+}
+
 function removeLastKitten(){
-  var thisKitten = kittens.slice(0, kittens.length-1);
+  kittens = kittens.slice(0, kittens.length-1);
   return kittens;
 }
 
 function removeFirstKitten(){
-  kitten=kittens.slice(0);
+  kittens=kittens.slice(0);
   return kittens;
-}*/
+}

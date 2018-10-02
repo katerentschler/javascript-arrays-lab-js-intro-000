@@ -33,8 +33,7 @@ function destructivelyRemoveFirstKitten(){
 
 function appendKitten(name){
   //there is a testing here...ot fibal correct answer
-  function kittycats (){kittens.splice(3, 0, name);}
-  kittycats();
-  //kittens.splice(3, 1, name);
-  return kittens;
+  kittens.splice(3, 0, name);
+  kittens.slice(0,3);
+  //return kittens;
 }

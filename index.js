@@ -35,5 +35,5 @@ function appendKitten(name){
   //there is a testing here...ot fibal correct answer
   kittens.splice(3, 0, name);
   kittens.slice(0,3);
-  //return kittens;
+  return kittens;
 }

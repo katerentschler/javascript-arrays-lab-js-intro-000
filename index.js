@@ -5,11 +5,11 @@ var kittens = [
   'Garfield'
 ];
 
-/*var Arrays = [
+var Arrays = [
   'Milo',
   'Otis',
   'Garfield'
-];*/
+];
 
 function destructivelyAppendKitten(name){
   kittens.push(name);
@@ -33,12 +33,9 @@ function destructivelyRemoveFirstKitten(){
 
 function appendKitten(name){
   //there is a testing here...ot fibal correct answer
-  //var kits = [...kittens, name];
-  function kittah (){
+
   kittens.splice(3, 0, name);
-}
-kittah();
-  return kittens;
+  return Arrays;
 }
 
 /*
